@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;500;600;700&display=swap');
-nav{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    margin: 0 200px;
-}
+
+
+/* common section */
 body{
     font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
@@ -20,6 +17,36 @@ font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #fff;
     padding: 15px 35px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-describ{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+
+
+
+
+
+
+ 
+
+/* start css   */
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 .port-title{
@@ -44,13 +71,42 @@ nav a{
 }
 .header{
     background-color: #f5e5da;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
+}
+.banner-section{
+    max-width: 550px;
 }
 
 .banner .port-banner-pic{
     width: 500px;
+}
+.port-banner-greeting{
+    font-size: 45px;
+    color:#474747 ;
+    margin-bottom: 0;
+}
+.port-banner-title{
+    font-size:85px;
+    margin-top: 5px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+/* about section */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #f5e5da;
+    margin: 130px 0;
 }
