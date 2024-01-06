@@ -185,3 +185,14 @@ main{
     text-align: center;
     margin-top: 50px;
 }
+
+
+
+
+/* footer-section */
+.footer-section{
+    display: flex;
+    background: #f8decd;
+    margin: 130px 0 0;
+    padding: 130px 100px;
+}
