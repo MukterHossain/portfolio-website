@@ -195,4 +195,25 @@ main{
     background: #f8decd;
     margin: 130px 0 0;
     padding: 130px 100px;
+    gap: 50px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-link a{
+    margin-right: 25px;
+}
+
+
+
+
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #757575;
+    border: 0;
+    width: 100%;
 }
