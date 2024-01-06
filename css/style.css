@@ -74,9 +74,9 @@ nav a{
 }
 .header{
     background-color: #f5e5da;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner{
     padding: 30px 30px 0 150px;
@@ -127,6 +127,12 @@ main{
 }
 .about-info{
     text-align: center;
+}
+
+
+
+.btn-primary i{
+    padding-right: 10px;
 }
 .info-title{
     font-size: 20px;
